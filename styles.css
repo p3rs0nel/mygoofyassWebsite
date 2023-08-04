@@ -1,0 +1,91 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+
+.card {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    border-radius: 10px;
+}
+
+.card .product-pic {
+    width: 322px;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card main {
+    padding: 20px;
+    padding-left: 30px;
+    text-align: left;
+    align-items: center;
+}
+
+.card main .top-text {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font: 700;
+    letter-spacing: 10px;
+}
+
+.card main h1 {
+    font-family: Fraunces, serif;
+}
+
+.card main p {
+    color: hsl(228, 12%, 48%);
+}
+
+.card main .price{
+    font-size: 30px;
+    display: inline-block;
+    padding-right: 15px;
+    color: hsl(158, 36%, 37%);
+    font-family: Fraunces, serif;
+}
+
+.card main .oldprice {
+    display: inline-block;
+    text-decoration: line-through;
+    
+}
+
+.card main a {
+    display: inline-block;
+    background-color: hsl(158, 36%, 37%);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 25px;
+    width: 270px;
+    height: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.card main a:visited {
+    color: hsl(0, 0%, 100%) ;
+}
+
+.card main a img {
+    display: inline-block;
+    padding-right: 7px;
+}
+
+.attribution {
+    padding-top: 20px;
+}
