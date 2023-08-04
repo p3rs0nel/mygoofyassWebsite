@@ -44,6 +44,7 @@ body{
 
 .card main h1 {
     font-family: Fraunces, serif;
+    color: hsl(212, 21%, 14%);
 }
 
 .card main p {
@@ -75,10 +76,16 @@ body{
     height: 10px;
     text-decoration: none;
     border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    transition: background-color 0.125s ease-out;
 }
 
 .card main a:visited {
-    color: hsl(0, 0%, 100%) ;
+    color: hsl(0, 0%, 100%);
+}
+
+.card main a:hover {
+    background-color: hsl(157, 33%, 31%);
 }
 
 .card main a img {
